@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/image_dimen"
+            android:layout_height="@dimen/image_dimen"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/field_margin_long"
+            android:contentDescription="@string/todo"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/diginotesicon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/username_or_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/field_margin_long"
+            android:layout_marginTop="@dimen/field_margin_medium"
+            android:layout_marginEnd="@dimen/field_margin_long"
+            android:autofillHints=""
+            android:hint="@string/user_name_or_email_address"
+            android:inputType="text|textEmailAddress"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/text_field_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            tools:ignore="TextFields" />
+
+        <EditText
+            android:id="@+id/password_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/field_margin_long"
+            android:layout_marginTop="@dimen/field_margin_medium"
+            android:layout_marginEnd="@dimen/field_margin_long"
+            android:hint="@string/password"
+            android:importantForAutofill="no"
+            android:inputType="textWebPassword"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorHint"
+            android:textSize="@dimen/text_field_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/username_or_email" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/field_margin_long"
+            android:layout_marginTop="@dimen/field_margin_short"
+            android:backgroundTint="@color/colorButton"
+            android:paddingStart="25dp"
+            android:paddingEnd="25dp"
+            android:text="@string/login"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_field_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/password_text"
+            tools:targetApi="lollipop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/field_margin_short"
+            android:layout_marginEnd="@dimen/field_margin_long"
+            android:text="@string/not_a_user_signup"
+            android:textColor="@color/colorButton"
+            android:textSize="@dimen/text_field_size_small"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/login_button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
