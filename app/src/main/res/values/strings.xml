@@ -10,7 +10,8 @@
     <string name="login">Log In</string>
     <string name="user_name_or_email_address">User Name or Email Address</string>
     <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
+    <string name="forgot_password">Forgot Password</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Continue_text">Continue</string>
 </resources>

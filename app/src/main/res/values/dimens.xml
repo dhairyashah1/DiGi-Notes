@@ -4,7 +4,7 @@
     <dimen name="field_margin_medium">15dp</dimen>
     <dimen name="field_margin_short">10dp</dimen>
     <dimen name="image_dimen">150dp</dimen>
-    <dimen name="buttonPadding">20dp</dimen>
-    <dimen name="text_field_size">24sp</dimen>
-    <dimen name="text_field_size_small">20sp</dimen>
+    <dimen name="buttonPadding">18dp</dimen>
+    <dimen name="text_field_size">22sp</dimen>
+    <dimen name="text_field_size_small">18sp</dimen>
 </resources>
