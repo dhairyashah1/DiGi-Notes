@@ -43,6 +43,11 @@ class signUp : Fragment() {
                 binding.passwordText.requestFocus()
                 return@setOnClickListener
             }
+            if (binding.passwordText.length()<6) {
+                binding.passwordText.error="Length Should be atleast 6 characters"
+                binding.passwordText.requestFocus()
+                return@setOnClickListener
+            }
             if (binding.confirmPasswordText.text.toString().isEmpty()) {
                 binding.confirmPasswordText.error = "Please re-enter the password "
                 binding.confirmPasswordText.requestFocus()
