@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DiGi-Notes</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_a_user_login">Already a User? Log In</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="user_name">User Name</string>
+    <string name="not_a_user_signup">Not a User? Sign Up</string>
+    <string name="login">Log In</string>
+    <string name="user_name_or_email_address">Email Address</string>
+    <string name="todo">TODO</string>
+    <string name="forgot_password">Forgot Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Continue_text">Continue</string>
+    <string name="logout">Logout</string>
+</resources>
