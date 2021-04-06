@@ -49,5 +49,22 @@
             app:destination="@id/loginPage"
             app:popUpTo="@id/navigation"
             app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_main_home_page_to_folderOptionsFragment"
+            app:destination="@id/folderOptionsFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/folderOptionsFragment"
+        android:name="com.example.diginotes.FolderOptionsFragment"
+        android:label="fragment_folder_options"
+        tools:layout="@layout/fragment_folder_options" >
+        <action
+            android:id="@+id/action_folderOptionsFragment_to_cameraFragment"
+            app:destination="@id/cameraFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.example.diginotes.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
 </navigation>

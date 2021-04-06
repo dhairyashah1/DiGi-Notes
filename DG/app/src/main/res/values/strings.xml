@@ -15,4 +15,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="Continue_text">Continue</string>
     <string name="logout">Logout</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="scan">Scan</string>
+    <string name="speech_to_text">Speech To Text</string>
 </resources>

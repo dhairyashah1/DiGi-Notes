@@ -1,0 +1,40 @@
+com/example/diginotes/databinding/FragmentFirstHomePageBindingImpl.java
+ com.example.diginotes.databinding.FragmentFirstHomePageBindingImpl
+com/example/diginotes/DataBinderMapperImpl.java
+ com.example.diginotes.DataBinderMapperImpl
+ com.example.diginotes.DataBinderMapperImpl$InnerBrLookup
+ com.example.diginotes.DataBinderMapperImpl$InnerLayoutIdLookup
+com/example/diginotes/databinding/FragmentLoginPageBindingImpl.java
+ com.example.diginotes.databinding.FragmentLoginPageBindingImpl
+com/example/diginotes/databinding/FragmentSignUpBindingImpl.java
+ com.example.diginotes.databinding.FragmentSignUpBindingImpl
+com/example/diginotes/DataBindingTriggerClass.java
+ com.example.diginotes.DataBindingTriggerClass
+com/example/diginotes/databinding/FragmentMainHomePageBinding.java
+ com.example.diginotes.databinding.FragmentMainHomePageBinding
+com/example/diginotes/BR.java
+ com.example.diginotes.BR
+com/example/diginotes/databinding/DailogForgotPasswordBindingImpl.java
+ com.example.diginotes.databinding.DailogForgotPasswordBindingImpl
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/example/diginotes/databinding/FragmentSignUpBinding.java
+ com.example.diginotes.databinding.FragmentSignUpBinding
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/example/diginotes/databinding/ActivityMainBindingImpl.java
+ com.example.diginotes.databinding.ActivityMainBindingImpl
+com/example/diginotes/databinding/FragmentFirstHomePageBinding.java
+ com.example.diginotes.databinding.FragmentFirstHomePageBinding
+com/example/diginotes/databinding/ActivityMainBinding.java
+ com.example.diginotes.databinding.ActivityMainBinding
+com/example/diginotes/databinding/FragmentLoginPageBinding.java
+ com.example.diginotes.databinding.FragmentLoginPageBinding
+com/example/diginotes/BuildConfig.java
+ com.example.diginotes.BuildConfig
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+com/example/diginotes/databinding/DailogForgotPasswordBinding.java
+ com.example.diginotes.databinding.DailogForgotPasswordBinding
+com/example/diginotes/databinding/FragmentMainHomePageBindingImpl.java
+ com.example.diginotes.databinding.FragmentMainHomePageBindingImpl
