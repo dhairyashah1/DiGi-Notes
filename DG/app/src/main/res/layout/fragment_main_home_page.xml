@@ -51,6 +51,178 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
+        
+        <ImageButton
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:contentDescription="@string/todo1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground_add_folder"
+        tools:ignore="VectorDrawableCompat"></ImageButton>
+
+    <GridLayout
+        android:id="@+id/Grid"
+        android:layout_width="wrap_content"
+        android:layout_height="650dp"
+        android:layout_marginStart="40dp"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/Folder1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"
+            android:contentDescription="@string/todo1"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Folder2"
+            android:layout_width="wrap_content"
+            android:background="@color/black"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"
+            android:contentDescription="@string/todo2"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Folder3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"
+            android:contentDescription="@string/todo3"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Folder4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"
+            android:contentDescription="@string/todo4"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Folder5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"
+            android:contentDescription="@string/todo5"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Folder6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"
+            android:contentDescription="@string/todo6"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Folder7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"
+            android:contentDescription="@string/todo7"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Folder8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"
+            android:contentDescription="@string/todo8"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Folder9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"
+            android:contentDescription="@string/todo9"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Folder10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"
+            android:contentDescription="@string/todo10"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Folder11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"
+            android:contentDescription="@string/todo11"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Folder12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"
+            android:contentDescription="@string/todo12"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Folder13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"
+            android:contentDescription="@string/todo13"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Folder14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"
+            android:contentDescription="@string/todo14"></ImageButton>
+
+        <ImageButton
+            android:id="@+id/Folder15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/todo15"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+ <ImageButton
+            android:id="@+id/Folder16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/todo16"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+ <ImageButton
+            android:id="@+id/Folder17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/todo17"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+ <ImageButton
+            android:id="@+id/Folder18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/todo18"
+            android:background="@color/black"
+            app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></Button>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
