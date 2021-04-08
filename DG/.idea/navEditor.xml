@@ -13,8 +13,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="948" />
-                            <option name="y" value="355" />
+                            <option name="x" value="942" />
+                            <option name="y" value="167" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -104,6 +104,11 @@
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="action_main_home_page_to_folderOptionsFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_main_home_page_to_loginPage">
                               <value>
                                 <LayoutPositions />
@@ -131,6 +136,18 @@
                               </value>
                             </entry>
                           </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="speechToTextFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="954" />
+                            <option name="y" value="486" />
+                          </Point>
                         </option>
                       </LayoutPositions>
                     </value>

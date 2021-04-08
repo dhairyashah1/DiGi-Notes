@@ -14,12 +14,10 @@ public class FragmentFolderOptionsBindingImpl extends FragmentFolderOptionsBindi
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.button, 1);
-        sViewsWithIds.put(R.id.button2, 2);
+        sViewsWithIds.put(R.id.button_scan, 1);
+        sViewsWithIds.put(R.id.button_speechToText, 2);
     }
     // views
-    @NonNull
-    private final androidx.constraintlayout.widget.ConstraintLayoutLayout mboundView0;
     // variables
     // values
     // listeners
@@ -32,9 +30,9 @@ public class FragmentFolderOptionsBindingImpl extends FragmentFolderOptionsBindi
         super(bindingComponent, root, 0
             , (android.widget.Button) bindings[1]
             , (android.widget.Button) bindings[2]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
             );
-        this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayoutLayout) bindings[0];
-        this.mboundView0.setTag(null);
+        this.frameLayout.setTag(null);
         setRootTag(root);
         // listeners
         invalidateAll();

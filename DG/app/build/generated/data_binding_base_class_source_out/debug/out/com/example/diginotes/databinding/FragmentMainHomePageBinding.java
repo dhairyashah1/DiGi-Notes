@@ -4,6 +4,9 @@ package com.example.diginotes.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.GridLayout;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -15,11 +18,100 @@ import java.lang.Object;
 
 public abstract class FragmentMainHomePageBinding extends ViewDataBinding {
   @NonNull
+  public final ImageButton Folder1;
+
+  @NonNull
+  public final ImageButton Folder10;
+
+  @NonNull
+  public final ImageButton Folder11;
+
+  @NonNull
+  public final ImageButton Folder12;
+
+  @NonNull
+  public final ImageButton Folder13;
+
+  @NonNull
+  public final ImageButton Folder14;
+
+  @NonNull
+  public final ImageButton Folder15;
+
+  @NonNull
+  public final ImageButton Folder16;
+
+  @NonNull
+  public final ImageButton Folder17;
+
+  @NonNull
+  public final ImageButton Folder18;
+
+  @NonNull
+  public final ImageButton Folder2;
+
+  @NonNull
+  public final ImageButton Folder3;
+
+  @NonNull
+  public final ImageButton Folder4;
+
+  @NonNull
+  public final ImageButton Folder5;
+
+  @NonNull
+  public final ImageButton Folder6;
+
+  @NonNull
+  public final ImageButton Folder7;
+
+  @NonNull
+  public final ImageButton Folder8;
+
+  @NonNull
+  public final ImageButton Folder9;
+
+  @NonNull
+  public final GridLayout Grid;
+
+  @NonNull
+  public final ImageButton add;
+
+  @NonNull
+  public final Button button;
+
+  @NonNull
   public final TextView logout;
 
   protected FragmentMainHomePageBinding(Object _bindingComponent, View _root, int _localFieldCount,
+      ImageButton Folder1, ImageButton Folder10, ImageButton Folder11, ImageButton Folder12,
+      ImageButton Folder13, ImageButton Folder14, ImageButton Folder15, ImageButton Folder16,
+      ImageButton Folder17, ImageButton Folder18, ImageButton Folder2, ImageButton Folder3,
+      ImageButton Folder4, ImageButton Folder5, ImageButton Folder6, ImageButton Folder7,
+      ImageButton Folder8, ImageButton Folder9, GridLayout Grid, ImageButton add, Button button,
       TextView logout) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.Folder1 = Folder1;
+    this.Folder10 = Folder10;
+    this.Folder11 = Folder11;
+    this.Folder12 = Folder12;
+    this.Folder13 = Folder13;
+    this.Folder14 = Folder14;
+    this.Folder15 = Folder15;
+    this.Folder16 = Folder16;
+    this.Folder17 = Folder17;
+    this.Folder18 = Folder18;
+    this.Folder2 = Folder2;
+    this.Folder3 = Folder3;
+    this.Folder4 = Folder4;
+    this.Folder5 = Folder5;
+    this.Folder6 = Folder6;
+    this.Folder7 = Folder7;
+    this.Folder8 = Folder8;
+    this.Folder9 = Folder9;
+    this.Grid = Grid;
+    this.add = add;
+    this.button = button;
     this.logout = logout;
   }
 

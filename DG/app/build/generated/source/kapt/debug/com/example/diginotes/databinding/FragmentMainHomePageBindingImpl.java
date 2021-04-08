@@ -15,6 +15,27 @@ public class FragmentMainHomePageBindingImpl extends FragmentMainHomePageBinding
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.logout, 1);
+        sViewsWithIds.put(R.id.add, 2);
+        sViewsWithIds.put(R.id.Grid, 3);
+        sViewsWithIds.put(R.id.Folder1, 4);
+        sViewsWithIds.put(R.id.Folder2, 5);
+        sViewsWithIds.put(R.id.Folder3, 6);
+        sViewsWithIds.put(R.id.Folder4, 7);
+        sViewsWithIds.put(R.id.Folder5, 8);
+        sViewsWithIds.put(R.id.Folder6, 9);
+        sViewsWithIds.put(R.id.Folder7, 10);
+        sViewsWithIds.put(R.id.Folder8, 11);
+        sViewsWithIds.put(R.id.Folder9, 12);
+        sViewsWithIds.put(R.id.Folder10, 13);
+        sViewsWithIds.put(R.id.Folder11, 14);
+        sViewsWithIds.put(R.id.Folder12, 15);
+        sViewsWithIds.put(R.id.Folder13, 16);
+        sViewsWithIds.put(R.id.Folder14, 17);
+        sViewsWithIds.put(R.id.Folder15, 18);
+        sViewsWithIds.put(R.id.Folder16, 19);
+        sViewsWithIds.put(R.id.Folder17, 20);
+        sViewsWithIds.put(R.id.Folder18, 21);
+        sViewsWithIds.put(R.id.button, 22);
     }
     // views
     @NonNull
@@ -25,10 +46,31 @@ public class FragmentMainHomePageBindingImpl extends FragmentMainHomePageBinding
     // Inverse Binding Event Handlers
 
     public FragmentMainHomePageBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 2, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 23, sIncludes, sViewsWithIds));
     }
     private FragmentMainHomePageBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
+            , (android.widget.ImageButton) bindings[4]
+            , (android.widget.ImageButton) bindings[13]
+            , (android.widget.ImageButton) bindings[14]
+            , (android.widget.ImageButton) bindings[15]
+            , (android.widget.ImageButton) bindings[16]
+            , (android.widget.ImageButton) bindings[17]
+            , (android.widget.ImageButton) bindings[18]
+            , (android.widget.ImageButton) bindings[19]
+            , (android.widget.ImageButton) bindings[20]
+            , (android.widget.ImageButton) bindings[21]
+            , (android.widget.ImageButton) bindings[5]
+            , (android.widget.ImageButton) bindings[6]
+            , (android.widget.ImageButton) bindings[7]
+            , (android.widget.ImageButton) bindings[8]
+            , (android.widget.ImageButton) bindings[9]
+            , (android.widget.ImageButton) bindings[10]
+            , (android.widget.ImageButton) bindings[11]
+            , (android.widget.ImageButton) bindings[12]
+            , (android.widget.GridLayout) bindings[3]
+            , (android.widget.ImageButton) bindings[2]
+            , (android.widget.Button) bindings[22]
             , (android.widget.TextView) bindings[1]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];

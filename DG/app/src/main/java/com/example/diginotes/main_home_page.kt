@@ -1,39 +1,45 @@
 package com.example.diginotes
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.GridLayout
+import android.widget.ImageButton
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.findNavController
 import com.example.diginotes.databinding.FragmentMainHomePageBinding
 import com.google.firebase.auth.FirebaseAuth
+import java.io.File
 
 
 class main_home_page : Fragment() {
-     lateinit open var linear: GridLayout;
-    lateinit open var addFolder: ImageButton;
-    lateinit var Folder1 : ImageButton
-    lateinit var Folder2 : ImageButton
-    lateinit var Folder3 : ImageButton
-    lateinit var Folder4 : ImageButton
-  lateinit var Folder5 : ImageButton
-  lateinit var Folder6 : ImageButton
-  lateinit var Folder7 : ImageButton
-  lateinit var Folder8 : ImageButton
-  lateinit var Folder9 : ImageButton
-    lateinit var Folder10 : ImageButton
-    lateinit var Folder11 : ImageButton
-    lateinit var Folder12 : ImageButton
-    lateinit var Folder13 : ImageButton
-    lateinit var Folder14 : ImageButton
-    lateinit var Folder15 : ImageButton
-    lateinit var Folder16 : ImageButton
-    lateinit var Folder17 : ImageButton
-    lateinit var Folder18 : ImageButton
-    var no : Int = 1
-    lateinit var storage : File
+    lateinit var linear: GridLayout;
+    lateinit var addFolder: ImageButton;
+    lateinit var folder1: ImageButton
+    lateinit var folder2: ImageButton
+    lateinit var folder3: ImageButton
+    lateinit var folder4: ImageButton
+    lateinit var folder5: ImageButton
+    lateinit var folder6: ImageButton
+    lateinit var folder7: ImageButton
+    lateinit var folder8: ImageButton
+    lateinit var folder9: ImageButton
+    lateinit var folder10: ImageButton
+    lateinit var folder11: ImageButton
+    lateinit var folder12: ImageButton
+    lateinit var folder13: ImageButton
+    lateinit var folder14: ImageButton
+    lateinit var folder15: ImageButton
+    lateinit var folder16: ImageButton
+    lateinit var folder17: ImageButton
+    lateinit var folder18: ImageButton
+    var no: Int = 1
+    lateinit var storage: File
     private lateinit var auth: FirebaseAuth
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -43,92 +49,114 @@ class main_home_page : Fragment() {
             inflater,
             R.layout.fragment_main_home_page, container, false
         )
-        binding.logout.setOnClickListener{
+        binding.logout.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
             view?.findNavController()?.navigate(R.id.action_main_home_page_to_loginPage)
         }
-        return binding.root
-        addFolder = findViewById(R.id.add)
-        linear = findViewById(R.id.Grid)
-        Folder1 = findViewById(R.id.Folder1)
-        Folder2 = findViewById(R.id.Folder2)
-        Folder3 = findViewById(R.id.Folder3)
-        Folder4 = findViewById(R.id.Folder4)
-        Folder5 = findViewById(R.id.Folder5)
-        Folder6 = findViewById(R.id.Folder6)
-        Folder7 = findViewById(R.id.Folder7)
-        Folder8 = findViewById(R.id.Folder8)
-        Folder9 = findViewById(R.id.Folder9)
-        Folder10 = findViewById(R.id.Folder10)
-        Folder11 = findViewById(R.id.Folder11)
-        Folder12 = findViewById(R.id.Folder12)
-        Folder13 = findViewById(R.id.Folder13)
-        Folder14 = findViewById(R.id.Folder14)
-        Folder15 = findViewById(R.id.Folder15)
-        Folder16 = findViewById(R.id.Folder16)
-        Folder17 = findViewById(R.id.Folder17)
-        Folder18 = findViewById(R.id.Folder18)
 
-        storage  = File(applicationContext.getExternalFilesDir(null),"Storage-1")
+        addFolder = binding.add
+        linear = binding.Grid
+        folder1 = binding.Folder1
+        folder2 = binding.Folder2
+        folder3 = binding.Folder3
+        folder4 = binding.Folder4
+        folder5 = binding.Folder5
+        folder6 = binding.Folder6
+        folder7 = binding.Folder7
+        folder8 = binding.Folder8
+        folder9 = binding.Folder9
+        folder10 = binding.Folder10
+        folder11 = binding.Folder11
+        folder12 = binding.Folder12
+        folder13 = binding.Folder13
+        folder14 = binding.Folder14
+        folder15 = binding.Folder15
+        folder16 = binding.Folder16
+        folder17 = binding.Folder17
+        folder18 = binding.Folder18
+
+        storage = File(context?.getExternalFilesDir(null), "Storage-1")
         storage.mkdirs()
         addFolder.setOnClickListener(View.OnClickListener
         {
             addView(storage)
         })
+        folder1.setOnClickListener {
+            findNavController().navigate(R.id.action_main_home_page_to_folderOptionsFragment)
+        }
+        return binding.root
     }
-    }
-override fun onStart() {
+
+    override fun onStart() {
         super.onStart()
         visibility(storage)
     }
+
     private fun visibility(storage: File) {
-        var count =  storage.listFiles().size
-        var list  = listOf<ImageButton>(Folder1,Folder2,Folder3,Folder4,Folder5,Folder6,Folder7,Folder8,Folder9,Folder10,Folder11,Folder12,Folder13,Folder14,Folder15,Folder16,Folder17,Folder18)
-        for(j in list){
-            j.setVisibility(View.INVISIBLE)
+        var count = storage.listFiles().size
+        val list = listOf(
+            folder1,
+            folder2,
+            folder3,
+            folder4,
+            folder5,
+            folder6,
+            folder7,
+            folder8,
+            folder9,
+            folder10,
+            folder11,
+            folder12,
+            folder13,
+            folder14,
+            folder15,
+            folder16,
+            folder17,
+            folder18
+        )
+        for (j in list) {
+            j.visibility = View.INVISIBLE
         }
-        for(i in list){
-            if(count>0){
-                i.setVisibility(View.VISIBLE)
+        for (i in list) {
+            if (count > 0) {
+                i.visibility = View.VISIBLE
                 count--
             }
         }
     }
 
 
-    fun addView(storage:File) {
-        if(Folder18.isVisible) {
-//            Toast.makeText(this,"Maximium limit reached. No more folders can be created.",Toast.LENGTH_LONG).show()
-            val intent = Intent(this, FolderPage2::class.java).apply {
+    fun addView(storage: File) {
+        if (folder18.visibility == View.VISIBLE) {
+            Toast.makeText(requireContext(),"Maximium limit reached. No more folders can be created.",Toast.LENGTH_LONG).show()
+            val intent = Intent(requireContext(), FolderOptionsFragment::class.java).apply {
 
             }
             startActivity(intent)
-        }
-        else{
-            val mediaStorageDir: File = File(applicationContext.getExternalFilesDir("Storage-1"), "/Folder${no}")
+        } else {
+            val mediaStorageDir: File =
+                File(context?.getExternalFilesDir("Storage-1"), "/Folder${no}")
             mediaStorageDir.mkdirs()
-            if(no==1) Folder1.setVisibility(View.VISIBLE)
-            if(no==2) Folder2.setVisibility(View.VISIBLE)
-            if(no==3) Folder3.setVisibility(View.VISIBLE)
-            if(no==4) Folder4.setVisibility(View.VISIBLE)
-            if(no==5) Folder5.setVisibility(View.VISIBLE)
-            if(no==6) Folder6.setVisibility(View.VISIBLE)
-            if(no==7) Folder7.setVisibility(View.VISIBLE)
-            if(no==8) Folder8.setVisibility(View.VISIBLE)
-            if(no==9) Folder9.setVisibility(View.VISIBLE)
-            if(no==10) Folder10.setVisibility(View.VISIBLE)
-            if(no==11) Folder11.setVisibility(View.VISIBLE)
-            if(no==12) Folder12.setVisibility(View.VISIBLE)
-            if(no==13) Folder13.setVisibility(View.VISIBLE)
-            if(no==14) Folder14.setVisibility(View.VISIBLE)
-            if(no==15) Folder15.setVisibility(View.VISIBLE)
-            if(no==16) Folder16.setVisibility(View.VISIBLE)
-            if(no==17) Folder17.setVisibility(View.VISIBLE)
-            if(no==18) Folder18.setVisibility(View.VISIBLE)
+            if (no == 1) folder1.visibility = View.VISIBLE
+            if (no == 2) folder2.visibility = View.VISIBLE
+            if (no == 3) folder3.visibility = View.VISIBLE
+            if (no == 4) folder4.visibility = View.VISIBLE
+            if (no == 5) folder5.visibility = View.VISIBLE
+            if (no == 6) folder6.visibility = View.VISIBLE
+            if (no == 7) folder7.visibility = View.VISIBLE
+            if (no == 8) folder8.visibility = View.VISIBLE
+            if (no == 9) folder9.visibility = View.VISIBLE
+            if (no == 10) folder10.visibility = View.VISIBLE
+            if (no == 11) folder11.visibility = View.VISIBLE
+            if (no == 12) folder12.visibility = View.VISIBLE
+            if (no == 13) folder13.visibility = View.VISIBLE
+            if (no == 14) folder14.visibility = View.VISIBLE
+            if (no == 15) folder15.visibility = View.VISIBLE
+            if (no == 16) folder16.visibility = View.VISIBLE
+            if (no == 17) folder17.visibility = View.VISIBLE
+            if (no == 18) folder18.visibility = View.VISIBLE
             no++
         }
     }
-
-
 
 }

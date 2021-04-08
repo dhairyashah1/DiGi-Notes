@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\91976\\.gradle\\caches\\transforms-2\\files-2.1\\ec4372ba672e5d560f54d5ea2589ed3d\\appcompat-1.2.0\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\91976\\.gradle\\caches\\transforms-2\\files-2.1\\fa09ccd6c92e83feb80b12d64416c4aa\\appcompat-1.2.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\91976\\.gradle\\caches\\transforms-2\\files-2.1\\6a6db484f6e2c3ec59ebd8b56fca6043\\material-1.4.0-alpha01\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\91976\\.gradle\\caches\\transforms-2\\files-2.1\\0bd2714c2c142d5261c876aec1570003\\material-1.4.0-alpha02\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

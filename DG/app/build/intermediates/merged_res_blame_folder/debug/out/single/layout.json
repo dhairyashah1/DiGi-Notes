@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_speech_to_text.xml",
+        "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\layout\\fragment_speech_to_text.xml"
+    },
+    {
         "merged": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_folder_options.xml",
         "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\layout\\fragment_folder_options.xml"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_camera.xml",
+        "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\layout\\fragment_camera.xml"
     },
     {
         "merged": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_first_home_page.xml",

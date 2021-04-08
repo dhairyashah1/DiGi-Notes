@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import com.example.diginotes.R;
@@ -15,16 +16,20 @@ import java.lang.Object;
 
 public abstract class FragmentFolderOptionsBinding extends ViewDataBinding {
   @NonNull
-  public final Button button;
+  public final Button buttonScan;
 
   @NonNull
-  public final Button button2;
+  public final Button buttonSpeechToText;
+
+  @NonNull
+  public final ConstraintLayout frameLayout;
 
   protected FragmentFolderOptionsBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button button, Button button2) {
+      Button buttonScan, Button buttonSpeechToText, ConstraintLayout frameLayout) {
     super(_bindingComponent, _root, _localFieldCount);
-    this.button = button;
-    this.button2 = button2;
+    this.buttonScan = buttonScan;
+    this.buttonSpeechToText = buttonSpeechToText;
+    this.frameLayout = frameLayout;
   }
 
   @NonNull

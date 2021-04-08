@@ -19,18 +19,18 @@ class CameraFragment : Fragment() {
  
         return binding.root
     }
-    public fun openCamera(view: View){
+//    public fun openCamera(view: View){
 //        val requestCode = 99
-//        val preference: Int =  CameraManager.
-//        val intent = Intent()
+//        val preference: Int =  ScanConstants.OPEN_CAMERA
+//        val intent = Intent(requireContext(), ScanActivity::class.java)
 //        intent.putExtra(ScanConstants.OPEN_INTENT_PREFERENCE, preference)
 //        startActivityForResult(intent, requestCode)
-    }
-    public fun openGallery(view: View){
+//    }
+//    public fun openGallery(view: View){
 //        val requestCode = 100
 //        val preference: Int = ScanConstants.OPEN_MEDIA
-//        val intent = Intent(this, ScanActivity::class.java)
+//        val intent = Intent(requireContext(), ScanActivity::class.java)
 //        intent.putExtra(ScanConstants.OPEN_INTENT_PREFERENCE, preference)
 //        startActivityForResult(intent, requestCode)
-    }
+//    }
 }

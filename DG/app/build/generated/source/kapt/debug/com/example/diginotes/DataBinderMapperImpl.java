@@ -8,11 +8,13 @@ import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.example.diginotes.databinding.ActivityMainBindingImpl;
 import com.example.diginotes.databinding.DailogForgotPasswordBindingImpl;
+import com.example.diginotes.databinding.FragmentCameraBindingImpl;
 import com.example.diginotes.databinding.FragmentFirstHomePageBindingImpl;
 import com.example.diginotes.databinding.FragmentFolderOptionsBindingImpl;
 import com.example.diginotes.databinding.FragmentLoginPageBindingImpl;
 import com.example.diginotes.databinding.FragmentMainHomePageBindingImpl;
 import com.example.diginotes.databinding.FragmentSignUpBindingImpl;
+import com.example.diginotes.databinding.FragmentSpeechToTextBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -28,26 +30,32 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   private static final int LAYOUT_DAILOGFORGOTPASSWORD = 2;
 
-  private static final int LAYOUT_FRAGMENTFIRSTHOMEPAGE = 3;
+  private static final int LAYOUT_FRAGMENTCAMERA = 3;
 
-  private static final int LAYOUT_FRAGMENTFOLDEROPTIONS = 4;
+  private static final int LAYOUT_FRAGMENTFIRSTHOMEPAGE = 4;
 
-  private static final int LAYOUT_FRAGMENTLOGINPAGE = 5;
+  private static final int LAYOUT_FRAGMENTFOLDEROPTIONS = 5;
 
-  private static final int LAYOUT_FRAGMENTMAINHOMEPAGE = 6;
+  private static final int LAYOUT_FRAGMENTLOGINPAGE = 6;
 
-  private static final int LAYOUT_FRAGMENTSIGNUP = 7;
+  private static final int LAYOUT_FRAGMENTMAINHOMEPAGE = 7;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(7);
+  private static final int LAYOUT_FRAGMENTSIGNUP = 8;
+
+  private static final int LAYOUT_FRAGMENTSPEECHTOTEXT = 9;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(9);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.diginotes.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.diginotes.R.layout.dailog_forgot_password, LAYOUT_DAILOGFORGOTPASSWORD);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.diginotes.R.layout.fragment_camera, LAYOUT_FRAGMENTCAMERA);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.diginotes.R.layout.fragment_first_home_page, LAYOUT_FRAGMENTFIRSTHOMEPAGE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.diginotes.R.layout.fragment_folder_options, LAYOUT_FRAGMENTFOLDEROPTIONS);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.diginotes.R.layout.fragment_login_page, LAYOUT_FRAGMENTLOGINPAGE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.diginotes.R.layout.fragment_main_home_page, LAYOUT_FRAGMENTMAINHOMEPAGE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.diginotes.R.layout.fragment_sign_up, LAYOUT_FRAGMENTSIGNUP);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.diginotes.R.layout.fragment_speech_to_text, LAYOUT_FRAGMENTSPEECHTOTEXT);
   }
 
   @Override
@@ -70,6 +78,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new DailogForgotPasswordBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for dailog_forgot_password is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTCAMERA: {
+          if ("layout/fragment_camera_0".equals(tag)) {
+            return new FragmentCameraBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_camera is invalid. Received: " + tag);
         }
         case  LAYOUT_FRAGMENTFIRSTHOMEPAGE: {
           if ("layout/fragment_first_home_page_0".equals(tag)) {
@@ -100,6 +114,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new FragmentSignUpBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for fragment_sign_up is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTSPEECHTOTEXT: {
+          if ("layout/fragment_speech_to_text_0".equals(tag)) {
+            return new FragmentSpeechToTextBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_speech_to_text is invalid. Received: " + tag);
         }
       }
     }
@@ -154,16 +174,18 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(7);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(9);
 
     static {
       sKeys.put("layout/activity_main_0", com.example.diginotes.R.layout.activity_main);
       sKeys.put("layout/dailog_forgot_password_0", com.example.diginotes.R.layout.dailog_forgot_password);
+      sKeys.put("layout/fragment_camera_0", com.example.diginotes.R.layout.fragment_camera);
       sKeys.put("layout/fragment_first_home_page_0", com.example.diginotes.R.layout.fragment_first_home_page);
       sKeys.put("layout/fragment_folder_options_0", com.example.diginotes.R.layout.fragment_folder_options);
       sKeys.put("layout/fragment_login_page_0", com.example.diginotes.R.layout.fragment_login_page);
       sKeys.put("layout/fragment_main_home_page_0", com.example.diginotes.R.layout.fragment_main_home_page);
       sKeys.put("layout/fragment_sign_up_0", com.example.diginotes.R.layout.fragment_sign_up);
+      sKeys.put("layout/fragment_speech_to_text_0", com.example.diginotes.R.layout.fragment_speech_to_text);
     }
   }
 }

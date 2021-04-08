@@ -61,10 +61,17 @@
         <action
             android:id="@+id/action_folderOptionsFragment_to_cameraFragment"
             app:destination="@id/cameraFragment" />
+        <action
+            android:id="@+id/action_folderOptionsFragment_to_speechToTextFragment"
+            app:destination="@id/speechToTextFragment" />
     </fragment>
     <fragment
         android:id="@+id/cameraFragment"
         android:name="com.example.diginotes.CameraFragment"
         android:label="fragment_camera"
         tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/speechToTextFragment"
+        android:name="com.example.diginotes.SpeechToTextFragment"
+        android:label="SpeechToTextFragment" />
 </navigation>
