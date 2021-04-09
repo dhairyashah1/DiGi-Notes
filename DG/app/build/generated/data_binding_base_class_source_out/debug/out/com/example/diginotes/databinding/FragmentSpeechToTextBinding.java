@@ -4,6 +4,10 @@ package com.example.diginotes.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ScrollView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -15,12 +19,38 @@ import java.lang.Object;
 
 public abstract class FragmentSpeechToTextBinding extends ViewDataBinding {
   @NonNull
+  public final EditText fileContentEditText;
+
+  @NonNull
+  public final EditText fileNameEditText;
+
+  @NonNull
+  public final TextView fileNameTextView;
+
+  @NonNull
   public final ConstraintLayout frameLayout3;
 
+  @NonNull
+  public final Button recordButton;
+
+  @NonNull
+  public final Button saveButton;
+
+  @NonNull
+  public final ScrollView scrollTextView;
+
   protected FragmentSpeechToTextBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      ConstraintLayout frameLayout3) {
+      EditText fileContentEditText, EditText fileNameEditText, TextView fileNameTextView,
+      ConstraintLayout frameLayout3, Button recordButton, Button saveButton,
+      ScrollView scrollTextView) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.fileContentEditText = fileContentEditText;
+    this.fileNameEditText = fileNameEditText;
+    this.fileNameTextView = fileNameTextView;
     this.frameLayout3 = frameLayout3;
+    this.recordButton = recordButton;
+    this.saveButton = saveButton;
+    this.scrollTextView = scrollTextView;
   }
 
   @NonNull

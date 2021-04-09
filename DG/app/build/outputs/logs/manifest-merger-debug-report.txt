@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.databinding:databinding-adapters:4.1.3] C:\Users\91976\.gradle\caches\transforms-2\files-2.1\77f91aacc4235a38f287e6190bebf6c5\databinding-adapters-4.1.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.1.3] C:\Users\91976\.gradle\caches\transforms-2\files-2.1\2caef99f6c954c1bd0b90a27d092d93e\databinding-runtime-4.1.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\91976\.gradle\caches\transforms-2\files-2.1\b0b866301b0792282277348d0e1d4c28\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
@@ -85,20 +85,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\91976\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\91976\.gradle\caches\transforms-2\files-2.1\de96eab1a84de54adaa1bd2cbb5677dd\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\91976\.gradle\caches\transforms-2\files-2.1\e8391f706babcf89edf2971cfdd6b600\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\91976\.gradle\caches\transforms-2\files-2.1\78ee50f6c1920fa5302f769d63ba3657\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:2:11-69
@@ -122,16 +122,20 @@ uses-permission#android.permission.CAMERA
 ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:6:5-65
 	android:name
 		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:6:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:7:22-68
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:8:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:8:5-80
+ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:9:5-80
 	android:name
-		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:8:22-77
+		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:9:22-77
 application
-ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:10:5-25:19
+ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:11:5-26:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:18.0.2] C:\Users\91976\.gradle\caches\transforms-2\files-2.1\397825f90284b9f8258d8cab7bf1728b\jetified-firebase-analytics-ktx-18.0.2\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:18.0.2] C:\Users\91976\.gradle\caches\transforms-2\files-2.1\397825f90284b9f8258d8cab7bf1728b\jetified-firebase-analytics-ktx-18.0.2\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\91976\.gradle\caches\transforms-2\files-2.1\6c0c6cb8608127840848324d61a865e8\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:11:5-19:19
@@ -181,33 +185,33 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\91
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] C:\Users\91976\.gradle\caches\transforms-2\files-2.1\36799d7725fc076d981975156544fcb0\core-1.3.2\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:16:9-54
 	android:icon
-		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:17:9-47
+		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:18:9-47
 	android:name
-		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:11:9-61
+		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:12:9-61
 activity#com.example.diginotes.MainActivity
-ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:18:9-24:20
+ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:18:19-47
+		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:19:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml

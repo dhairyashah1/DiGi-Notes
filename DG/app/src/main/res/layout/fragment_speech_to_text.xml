@@ -1,13 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/frameLayout3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/colorBackground"
         tools:context=".SpeechToTextFragment">
 
+        <TextView
+            android:id="@+id/file_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="70dp"
+            android:text="@string/file_name"
+            android:textColor="@color/colorButton"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/file_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:autofillHints=""
+            android:hint="@string/enter_filename"
+            android:textColorHint="@color/colorHint"
+            android:inputType="text"
+            android:paddingStart="5sp"
+            android:paddingEnd="5sp"
+            android:paddingBottom="5sp"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@+id/file_name_text_view" />
+
+        <ScrollView
+            android:id="@+id/scroll_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:paddingStart="5sp"
+            android:paddingEnd="5sp"
+            android:paddingBottom="5sp"
+            app:layout_constraintBottom_toTopOf="@id/record_button"
+            app:layout_constraintTop_toBottomOf="@id/file_name_edit_text">
+
+            <EditText
+                android:id="@+id/file_content_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="25dp"
+                android:autofillHints=""
+                android:hint="@string/the_text_will_be_displayed_here"
+                android:textColorHint="@color/colorHint"
+                android:inputType="text"
+                android:paddingStart="5sp"
+                android:paddingEnd="5sp"
+                android:paddingBottom="5sp"
+                android:textSize="22sp" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/record_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:backgroundTint="@color/colorButton"
+            android:text="@string/record"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toTopOf="@id/save_button" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:backgroundTint="@color/colorButton"
+            android:text="@string/save"
+            android:textColor="@color/colorWhite"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </layout>

@@ -13,7 +13,13 @@ public class FragmentSpeechToTextBindingImpl extends FragmentSpeechToTextBinding
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
         sIncludes = null;
-        sViewsWithIds = null;
+        sViewsWithIds = new android.util.SparseIntArray();
+        sViewsWithIds.put(R.id.file_name_text_view, 1);
+        sViewsWithIds.put(R.id.file_name_edit_text, 2);
+        sViewsWithIds.put(R.id.scroll_text_view, 3);
+        sViewsWithIds.put(R.id.file_content_edit_text, 4);
+        sViewsWithIds.put(R.id.record_button, 5);
+        sViewsWithIds.put(R.id.save_button, 6);
     }
     // views
     // variables
@@ -22,11 +28,17 @@ public class FragmentSpeechToTextBindingImpl extends FragmentSpeechToTextBinding
     // Inverse Binding Event Handlers
 
     public FragmentSpeechToTextBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 1, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 7, sIncludes, sViewsWithIds));
     }
     private FragmentSpeechToTextBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
+            , (android.widget.EditText) bindings[4]
+            , (android.widget.EditText) bindings[2]
+            , (android.widget.TextView) bindings[1]
             , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
+            , (android.widget.Button) bindings[5]
+            , (android.widget.Button) bindings[6]
+            , (android.widget.ScrollView) bindings[3]
             );
         this.frameLayout3.setTag(null);
         setRootTag(root);

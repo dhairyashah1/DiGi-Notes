@@ -37,4 +37,9 @@
     <string name="todo16">TODO</string>
     <string name="todo17">TODO</string>
     <string name="todo18">TODO</string>
+    <string name="file_name">File Name</string>
+    <string name="enter_filename">Enter Filename</string>
+    <string name="the_text_will_be_displayed_here">The text will be displayed here</string>
+    <string name="record">RECORD</string>
+    <string name="save">SAVE</string>
 </resources>

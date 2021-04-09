@@ -32,6 +32,10 @@
         "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\layout\\dailog_forgot_password.xml"
     },
     {
+        "merged": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mic_icon.xml.flat",
+        "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\drawable\\mic_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_playstore.png.flat",
         "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\drawable\\ic_launcher_playstore.png"
     },

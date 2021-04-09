@@ -1802,6 +1802,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable mic_icon
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -2033,6 +2034,9 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id file_content_edit_text
+id file_name_edit_text
+id file_name_text_view
 id fill
 id fill_horizontal
 id fill_vertical
@@ -2190,6 +2194,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
+id record_button
 id rectangles
 id reverseSawtooth
 id right
@@ -2198,6 +2203,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id save_button
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2207,6 +2213,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scroll_text_view
 id scrollable
 id search_badge
 id search_bar
@@ -2553,10 +2560,12 @@ string common_signin_button_text_long
 string confirm_password
 string default_web_client_id
 string email_address
+string enter_filename
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string file_name
 string forgot_password
 string gallery
 string gcm_defaultSenderId
@@ -2635,11 +2644,14 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
+string record
+string save
 string scan
 string search_menu_title
 string sign_up
 string speech_to_text
 string status_bar_notification_info_overflow
+string the_text_will_be_displayed_here
 string todo
 string todo1
 string todo10
