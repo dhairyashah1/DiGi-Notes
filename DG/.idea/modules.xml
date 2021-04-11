@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DIGI_Notes.iml" filepath="$PROJECT_DIR$/.idea/modules/DIGI_Notes.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DIGI_Notes.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DIGI_Notes.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scanlibrary/DIGI_Notes.scan.iml" filepath="$PROJECT_DIR$/.idea/modules/scanlibrary/DIGI_Notes.scan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scanlibrary/DIGI_Notes.scanlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/scanlibrary/DIGI_Notes.scanlibrary.iml" />
     </modules>
   </component>
 </project>

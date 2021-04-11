@@ -28,6 +28,10 @@
         "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup.xml.flat",
+        "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\layout\\popup.xml"
+    },
+    {
         "merged": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\res\\merged\\debug\\layout_dailog_forgot_password.xml.flat",
         "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\layout\\dailog_forgot_password.xml"
     },

@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout 
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
     android:name=".MainActivity">
-
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/field_margin_short"
+        android:layout_marginEnd="@dimen/field_margin_long"
+        android:gravity="end"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="@string/logout"
+        android:textAllCaps="true"/>
 
     <ScrollView
         android:id="@+id/scroll"
@@ -24,6 +35,7 @@
             android:outlineAmbientShadowColor="@color/white"
             android:orientation="horizontal"
             tools:targetApi="p">
+            
             <ImageButton
                 android:id="@+id/Folder1"
                 android:layout_width="wrap_content"
@@ -31,7 +43,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo1"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text1"
                 android:layout_width="wrap_content"
@@ -40,8 +53,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder2"
@@ -50,7 +62,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo2"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text2"
                 android:layout_width="wrap_content"
@@ -59,8 +72,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder3"
@@ -69,7 +81,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo3"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text3"
                 android:layout_width="wrap_content"
@@ -78,8 +91,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder4"
@@ -88,7 +100,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo4"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text4"
                 android:layout_width="wrap_content"
@@ -97,8 +110,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder5"
@@ -107,7 +119,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo5"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text5"
                 android:layout_width="wrap_content"
@@ -116,8 +129,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder6"
@@ -126,7 +138,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo6"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text6"
                 android:layout_width="wrap_content"
@@ -135,8 +148,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder7"
@@ -145,7 +157,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo7"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text7"
                 android:layout_width="wrap_content"
@@ -154,8 +167,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder8"
@@ -164,7 +176,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo8"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text8"
                 android:layout_width="wrap_content"
@@ -173,8 +186,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
 
             <ImageButton
@@ -184,7 +196,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo9"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text9"
                 android:layout_width="wrap_content"
@@ -193,8 +206,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder10"
@@ -203,7 +215,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo10"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text10"
                 android:layout_width="wrap_content"
@@ -212,8 +225,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder11"
@@ -222,7 +234,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo11"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text11"
                 android:layout_width="wrap_content"
@@ -231,8 +244,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder12"
@@ -241,7 +253,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo12"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text12"
                 android:layout_width="wrap_content"
@@ -250,8 +263,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder13"
@@ -260,7 +272,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo13"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text13"
                 android:layout_width="wrap_content"
@@ -269,8 +282,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder14"
@@ -279,7 +291,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo14"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text14"
                 android:layout_width="wrap_content"
@@ -288,8 +301,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder15"
@@ -298,7 +310,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo15"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text15"
                 android:layout_width="wrap_content"
@@ -307,8 +320,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder16"
@@ -317,7 +329,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo16"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text16"
                 android:layout_width="wrap_content"
@@ -326,8 +339,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder17"
@@ -336,7 +348,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo17"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text17"
                 android:layout_width="wrap_content"
@@ -345,8 +358,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder18"
@@ -355,7 +367,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo18"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text18"
                 android:layout_width="wrap_content"
@@ -364,8 +377,8 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
+
             <ImageButton
                 android:id="@+id/Folder19"
                 android:layout_width="wrap_content"
@@ -373,7 +386,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo19"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text19"
                 android:layout_width="wrap_content"
@@ -382,15 +396,17 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"></TextView>
+                android:layout_marginStart="-75dp" />
+
             <ImageButton
                 android:id="@+id/Folder20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/black"
-                android:contentDescription="@string/todo20"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"
+                android:contentDescription="@string/todo" />
+
             <TextView
                 android:id="@+id/text20"
                 android:layout_width="wrap_content"
@@ -399,7 +415,8 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"></TextView>
+                android:layout_marginStart="-75dp" />
+
             <ImageButton
                 android:id="@+id/Folder21"
                 android:layout_width="wrap_content"
@@ -407,7 +424,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo19"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text21"
                 android:layout_width="wrap_content"
@@ -416,8 +434,8 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
+
             <ImageButton
                 android:id="@+id/Folder22"
                 android:layout_width="wrap_content"
@@ -425,7 +443,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo19"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text22"
                 android:layout_width="wrap_content"
@@ -434,8 +453,8 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
+
             <ImageButton
                 android:id="@+id/Folder23"
                 android:layout_width="wrap_content"
@@ -443,7 +462,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo19"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text23"
                 android:layout_width="wrap_content"
@@ -452,8 +472,8 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
+
             <ImageButton
                 android:id="@+id/Folder24"
                 android:layout_width="wrap_content"
@@ -461,7 +481,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo19"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text24"
                 android:layout_width="wrap_content"
@@ -470,8 +491,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder25"
@@ -480,7 +500,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo19"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text25"
                 android:layout_width="wrap_content"
@@ -489,8 +510,8 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
+
             <ImageButton
                 android:id="@+id/Folder26"
                 android:layout_width="wrap_content"
@@ -498,7 +519,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo19"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text26"
                 android:layout_width="wrap_content"
@@ -507,8 +529,8 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
+
             <ImageButton
                 android:id="@+id/Folder27"
                 android:layout_width="wrap_content"
@@ -516,7 +538,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo19"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text27"
                 android:layout_width="wrap_content"
@@ -525,8 +548,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder28"
@@ -535,7 +557,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo19"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text28"
                 android:layout_width="wrap_content"
@@ -544,8 +567,8 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
+
             <ImageButton
                 android:id="@+id/Folder29"
                 android:layout_width="wrap_content"
@@ -553,7 +576,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo19"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text29"
                 android:layout_width="wrap_content"
@@ -562,8 +586,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder30"
@@ -572,7 +595,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo19"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text30"
                 android:layout_width="wrap_content"
@@ -581,8 +605,8 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
+
             <ImageButton
                 android:id="@+id/Folder31"
                 android:layout_width="wrap_content"
@@ -590,7 +614,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo19"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text31"
                 android:layout_width="wrap_content"
@@ -599,8 +624,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder32"
@@ -609,7 +633,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo19"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text32"
                 android:layout_width="wrap_content"
@@ -618,8 +643,8 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
+
             <ImageButton
                 android:id="@+id/Folder33"
                 android:layout_width="wrap_content"
@@ -627,7 +652,8 @@
                 android:background="@color/black"
                 android:contentDescription="@string/todo19"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text33"
                 android:layout_width="wrap_content"
@@ -636,17 +662,17 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
 
             <ImageButton
                 android:id="@+id/Folder34"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/black"
-                android:contentDescription="@string/todo19"
+                android:contentDescription="@string/todo"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text34"
                 android:layout_width="wrap_content"
@@ -655,16 +681,17 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
+
             <ImageButton
                 android:id="@+id/Folder35"
                 android:layout_width="wrap_content"
+                android:contentDescription="@string/todo"
                 android:layout_height="wrap_content"
                 android:background="@color/black"
-                android:contentDescription="@string/todo19"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text35"
                 android:layout_width="wrap_content"
@@ -673,16 +700,17 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
+
             <ImageButton
                 android:id="@+id/Folder36"
+                android:contentDescription="@string/todo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/black"
-                android:contentDescription="@string/todo19"
                 android:visibility="gone"
-                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder"></ImageButton>
+                app:srcCompat="@drawable/ic_launcher_foreground_choose_folder" />
+
             <TextView
                 android:id="@+id/text36"
                 android:layout_width="wrap_content"
@@ -691,8 +719,7 @@
                 android:layout_marginTop="80dp"
                 android:visibility="gone"
                 android:textAlignment="center"
-                android:layout_marginStart="-75dp"
-                ></TextView>
+                android:layout_marginStart="-75dp" />
         </GridLayout>
     </ScrollView>
 
@@ -711,12 +738,9 @@
             android:contentDescription="@string/todo1"
             android:layout_alignParentEnd="true"
             app:srcCompat="@drawable/ic_launcher_foreground_add_folder"
-            tools:ignore="VectorDrawableCompat"></ImageButton>
+            tools:ignore="VectorDrawableCompat" />
     </RelativeLayout>
-
-
-
-
-
 </RelativeLayout>
+</layout>
+
 
