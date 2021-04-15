@@ -74,23 +74,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\91976\\.gradle\\caches\\transforms-2\\files-2.1\\aaade6f8912d575832945a0f40253b54\\navigation-ui-2.3.4\\res\\values-tl\\values-tl.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,169",
-                        "endColumns": "113,122",
-                        "endOffsets": "164,287"
-                    },
-                    "to": {
-                        "startLines": "104,105",
-                        "startColumns": "4,4",
-                        "startOffsets": "10291,10405",
-                        "endColumns": "113,122",
-                        "endOffsets": "10400,10523"
-                    }
-                },
-                {
                     "source": "C:\\Users\\91976\\.gradle\\caches\\transforms-2\\files-2.1\\327053c1900239cf43d47832d1b5aa76\\jetified-play-services-basement-17.1.0\\res\\values-tl\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -105,6 +88,23 @@
                         "startOffsets": "4654",
                         "endColumns": "203",
                         "endOffsets": "4853"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\91976\\.gradle\\caches\\transforms-2\\files-2.1\\87d1acb04aad981068b9a635ed1bd10c\\navigation-ui-2.3.5\\res\\values-tl\\values-tl.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,169",
+                        "endColumns": "113,122",
+                        "endOffsets": "164,287"
+                    },
+                    "to": {
+                        "startLines": "104,105",
+                        "startColumns": "4,4",
+                        "startOffsets": "10291,10405",
+                        "endColumns": "113,122",
+                        "endOffsets": "10400,10523"
                     }
                 }
             ]

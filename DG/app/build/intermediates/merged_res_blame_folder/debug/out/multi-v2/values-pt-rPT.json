@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\91976\\.gradle\\caches\\transforms-2\\files-2.1\\87d1acb04aad981068b9a635ed1bd10c\\navigation-ui-2.3.5\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,167",
+                        "endColumns": "111,119",
+                        "endOffsets": "162,282"
+                    },
+                    "to": {
+                        "startLines": "104,105",
+                        "startColumns": "4,4",
+                        "startOffsets": "10191,10303",
+                        "endColumns": "111,119",
+                        "endOffsets": "10298,10418"
+                    }
+                },
+                {
                     "source": "C:\\Users\\91976\\.gradle\\caches\\transforms-2\\files-2.1\\327053c1900239cf43d47832d1b5aa76\\jetified-play-services-basement-17.1.0\\res\\values-pt-rPT\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -52,23 +69,6 @@
                         "startOffsets": "278,386,492,599,688,789,913,998,1078,1170,1264,1361,1455,1554,1648,1744,1839,1931,2023,2108,2215,2326,2428,2536,2644,2751,2922,10509",
                         "endColumns": "107,105,106,88,100,123,84,79,91,93,96,93,98,93,95,94,91,91,84,106,110,101,107,107,106,170,98,85",
                         "endOffsets": "381,487,594,683,784,908,993,1073,1165,1259,1356,1450,1549,1643,1739,1834,1926,2018,2103,2210,2321,2423,2531,2639,2746,2917,3016,10590"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\91976\\.gradle\\caches\\transforms-2\\files-2.1\\aaade6f8912d575832945a0f40253b54\\navigation-ui-2.3.4\\res\\values-pt-rPT\\values-pt-rPT.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,167",
-                        "endColumns": "111,119",
-                        "endOffsets": "162,282"
-                    },
-                    "to": {
-                        "startLines": "104,105",
-                        "startColumns": "4,4",
-                        "startOffsets": "10191,10303",
-                        "endColumns": "111,119",
-                        "endOffsets": "10298,10418"
                     }
                 },
                 {
