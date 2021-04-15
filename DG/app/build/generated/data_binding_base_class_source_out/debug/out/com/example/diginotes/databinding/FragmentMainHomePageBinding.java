@@ -4,9 +4,10 @@ package com.example.diginotes.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.GridLayout;
 import android.widget.ImageButton;
+import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -48,10 +49,64 @@ public abstract class FragmentMainHomePageBinding extends ViewDataBinding {
   public final ImageButton Folder18;
 
   @NonNull
+  public final ImageButton Folder19;
+
+  @NonNull
   public final ImageButton Folder2;
 
   @NonNull
+  public final ImageButton Folder20;
+
+  @NonNull
+  public final ImageButton Folder21;
+
+  @NonNull
+  public final ImageButton Folder22;
+
+  @NonNull
+  public final ImageButton Folder23;
+
+  @NonNull
+  public final ImageButton Folder24;
+
+  @NonNull
+  public final ImageButton Folder25;
+
+  @NonNull
+  public final ImageButton Folder26;
+
+  @NonNull
+  public final ImageButton Folder27;
+
+  @NonNull
+  public final ImageButton Folder28;
+
+  @NonNull
+  public final ImageButton Folder29;
+
+  @NonNull
   public final ImageButton Folder3;
+
+  @NonNull
+  public final ImageButton Folder30;
+
+  @NonNull
+  public final ImageButton Folder31;
+
+  @NonNull
+  public final ImageButton Folder32;
+
+  @NonNull
+  public final ImageButton Folder33;
+
+  @NonNull
+  public final ImageButton Folder34;
+
+  @NonNull
+  public final ImageButton Folder35;
+
+  @NonNull
+  public final ImageButton Folder36;
 
   @NonNull
   public final ImageButton Folder4;
@@ -78,18 +133,141 @@ public abstract class FragmentMainHomePageBinding extends ViewDataBinding {
   public final ImageButton add;
 
   @NonNull
-  public final Button button;
+  public final RelativeLayout linear;
 
   @NonNull
   public final TextView logout;
 
+  @NonNull
+  public final ScrollView scroll;
+
+  @NonNull
+  public final TextView text1;
+
+  @NonNull
+  public final TextView text10;
+
+  @NonNull
+  public final TextView text11;
+
+  @NonNull
+  public final TextView text12;
+
+  @NonNull
+  public final TextView text13;
+
+  @NonNull
+  public final TextView text14;
+
+  @NonNull
+  public final TextView text15;
+
+  @NonNull
+  public final TextView text16;
+
+  @NonNull
+  public final TextView text17;
+
+  @NonNull
+  public final TextView text18;
+
+  @NonNull
+  public final TextView text19;
+
+  @NonNull
+  public final TextView text2;
+
+  @NonNull
+  public final TextView text20;
+
+  @NonNull
+  public final TextView text21;
+
+  @NonNull
+  public final TextView text22;
+
+  @NonNull
+  public final TextView text23;
+
+  @NonNull
+  public final TextView text24;
+
+  @NonNull
+  public final TextView text25;
+
+  @NonNull
+  public final TextView text26;
+
+  @NonNull
+  public final TextView text27;
+
+  @NonNull
+  public final TextView text28;
+
+  @NonNull
+  public final TextView text29;
+
+  @NonNull
+  public final TextView text3;
+
+  @NonNull
+  public final TextView text30;
+
+  @NonNull
+  public final TextView text31;
+
+  @NonNull
+  public final TextView text32;
+
+  @NonNull
+  public final TextView text33;
+
+  @NonNull
+  public final TextView text34;
+
+  @NonNull
+  public final TextView text35;
+
+  @NonNull
+  public final TextView text36;
+
+  @NonNull
+  public final TextView text4;
+
+  @NonNull
+  public final TextView text5;
+
+  @NonNull
+  public final TextView text6;
+
+  @NonNull
+  public final TextView text7;
+
+  @NonNull
+  public final TextView text8;
+
+  @NonNull
+  public final TextView text9;
+
   protected FragmentMainHomePageBinding(Object _bindingComponent, View _root, int _localFieldCount,
       ImageButton Folder1, ImageButton Folder10, ImageButton Folder11, ImageButton Folder12,
       ImageButton Folder13, ImageButton Folder14, ImageButton Folder15, ImageButton Folder16,
-      ImageButton Folder17, ImageButton Folder18, ImageButton Folder2, ImageButton Folder3,
-      ImageButton Folder4, ImageButton Folder5, ImageButton Folder6, ImageButton Folder7,
-      ImageButton Folder8, ImageButton Folder9, GridLayout Grid, ImageButton add, Button button,
-      TextView logout) {
+      ImageButton Folder17, ImageButton Folder18, ImageButton Folder19, ImageButton Folder2,
+      ImageButton Folder20, ImageButton Folder21, ImageButton Folder22, ImageButton Folder23,
+      ImageButton Folder24, ImageButton Folder25, ImageButton Folder26, ImageButton Folder27,
+      ImageButton Folder28, ImageButton Folder29, ImageButton Folder3, ImageButton Folder30,
+      ImageButton Folder31, ImageButton Folder32, ImageButton Folder33, ImageButton Folder34,
+      ImageButton Folder35, ImageButton Folder36, ImageButton Folder4, ImageButton Folder5,
+      ImageButton Folder6, ImageButton Folder7, ImageButton Folder8, ImageButton Folder9,
+      GridLayout Grid, ImageButton add, RelativeLayout linear, TextView logout, ScrollView scroll,
+      TextView text1, TextView text10, TextView text11, TextView text12, TextView text13,
+      TextView text14, TextView text15, TextView text16, TextView text17, TextView text18,
+      TextView text19, TextView text2, TextView text20, TextView text21, TextView text22,
+      TextView text23, TextView text24, TextView text25, TextView text26, TextView text27,
+      TextView text28, TextView text29, TextView text3, TextView text30, TextView text31,
+      TextView text32, TextView text33, TextView text34, TextView text35, TextView text36,
+      TextView text4, TextView text5, TextView text6, TextView text7, TextView text8,
+      TextView text9) {
     super(_bindingComponent, _root, _localFieldCount);
     this.Folder1 = Folder1;
     this.Folder10 = Folder10;
@@ -101,8 +279,26 @@ public abstract class FragmentMainHomePageBinding extends ViewDataBinding {
     this.Folder16 = Folder16;
     this.Folder17 = Folder17;
     this.Folder18 = Folder18;
+    this.Folder19 = Folder19;
     this.Folder2 = Folder2;
+    this.Folder20 = Folder20;
+    this.Folder21 = Folder21;
+    this.Folder22 = Folder22;
+    this.Folder23 = Folder23;
+    this.Folder24 = Folder24;
+    this.Folder25 = Folder25;
+    this.Folder26 = Folder26;
+    this.Folder27 = Folder27;
+    this.Folder28 = Folder28;
+    this.Folder29 = Folder29;
     this.Folder3 = Folder3;
+    this.Folder30 = Folder30;
+    this.Folder31 = Folder31;
+    this.Folder32 = Folder32;
+    this.Folder33 = Folder33;
+    this.Folder34 = Folder34;
+    this.Folder35 = Folder35;
+    this.Folder36 = Folder36;
     this.Folder4 = Folder4;
     this.Folder5 = Folder5;
     this.Folder6 = Folder6;
@@ -111,8 +307,45 @@ public abstract class FragmentMainHomePageBinding extends ViewDataBinding {
     this.Folder9 = Folder9;
     this.Grid = Grid;
     this.add = add;
-    this.button = button;
+    this.linear = linear;
     this.logout = logout;
+    this.scroll = scroll;
+    this.text1 = text1;
+    this.text10 = text10;
+    this.text11 = text11;
+    this.text12 = text12;
+    this.text13 = text13;
+    this.text14 = text14;
+    this.text15 = text15;
+    this.text16 = text16;
+    this.text17 = text17;
+    this.text18 = text18;
+    this.text19 = text19;
+    this.text2 = text2;
+    this.text20 = text20;
+    this.text21 = text21;
+    this.text22 = text22;
+    this.text23 = text23;
+    this.text24 = text24;
+    this.text25 = text25;
+    this.text26 = text26;
+    this.text27 = text27;
+    this.text28 = text28;
+    this.text29 = text29;
+    this.text3 = text3;
+    this.text30 = text30;
+    this.text31 = text31;
+    this.text32 = text32;
+    this.text33 = text33;
+    this.text34 = text34;
+    this.text35 = text35;
+    this.text36 = text36;
+    this.text4 = text4;
+    this.text5 = text5;
+    this.text6 = text6;
+    this.text7 = text7;
+    this.text8 = text8;
+    this.text9 = text9;
   }
 
   @NonNull

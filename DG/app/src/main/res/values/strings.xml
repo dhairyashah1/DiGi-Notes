@@ -42,4 +42,7 @@
     <string name="the_text_will_be_displayed_here">The text will be displayed here</string>
     <string name="record">RECORD</string>
     <string name="save">SAVE</string>
+    <string name="todo19" />
+    <string name="enter_name_of_the_folder">Enter Name of the Folder</string>
+    <string name="create_folder">Create Folder</string>
 </resources>
