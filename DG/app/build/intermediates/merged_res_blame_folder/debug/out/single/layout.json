@@ -34,5 +34,9 @@
     {
         "merged": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_sign_up.xml",
         "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\layout\\fragment_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_forgot_password.xml",
+        "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\layout\\dialog_forgot_password.xml"
     }
 ]

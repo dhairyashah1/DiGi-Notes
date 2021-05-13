@@ -13,13 +13,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import java.io.IOException;
 
-/**
- * Created by jhansi on 29/03/15.
- */
+
 public class ResultFragment extends Fragment {
 
     private View view;

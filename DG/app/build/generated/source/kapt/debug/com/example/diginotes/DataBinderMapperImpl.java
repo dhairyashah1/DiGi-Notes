@@ -7,7 +7,7 @@ import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.example.diginotes.databinding.ActivityMainBindingImpl;
-import com.example.diginotes.databinding.DailogForgotPasswordBindingImpl;
+import com.example.diginotes.databinding.DialogForgotPasswordBindingImpl;
 import com.example.diginotes.databinding.FragmentCameraBindingImpl;
 import com.example.diginotes.databinding.FragmentFirstHomePageBindingImpl;
 import com.example.diginotes.databinding.FragmentFolderOptionsBindingImpl;
@@ -28,7 +28,7 @@ import java.util.List;
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_ACTIVITYMAIN = 1;
 
-  private static final int LAYOUT_DAILOGFORGOTPASSWORD = 2;
+  private static final int LAYOUT_DIALOGFORGOTPASSWORD = 2;
 
   private static final int LAYOUT_FRAGMENTCAMERA = 3;
 
@@ -48,7 +48,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.diginotes.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.diginotes.R.layout.dailog_forgot_password, LAYOUT_DAILOGFORGOTPASSWORD);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.diginotes.R.layout.dialog_forgot_password, LAYOUT_DIALOGFORGOTPASSWORD);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.diginotes.R.layout.fragment_camera, LAYOUT_FRAGMENTCAMERA);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.diginotes.R.layout.fragment_first_home_page, LAYOUT_FRAGMENTFIRSTHOMEPAGE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.example.diginotes.R.layout.fragment_folder_options, LAYOUT_FRAGMENTFOLDEROPTIONS);
@@ -73,11 +73,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for activity_main is invalid. Received: " + tag);
         }
-        case  LAYOUT_DAILOGFORGOTPASSWORD: {
-          if ("layout/dailog_forgot_password_0".equals(tag)) {
-            return new DailogForgotPasswordBindingImpl(component, view);
+        case  LAYOUT_DIALOGFORGOTPASSWORD: {
+          if ("layout/dialog_forgot_password_0".equals(tag)) {
+            return new DialogForgotPasswordBindingImpl(component, view);
           }
-          throw new IllegalArgumentException("The tag for dailog_forgot_password is invalid. Received: " + tag);
+          throw new IllegalArgumentException("The tag for dialog_forgot_password is invalid. Received: " + tag);
         }
         case  LAYOUT_FRAGMENTCAMERA: {
           if ("layout/fragment_camera_0".equals(tag)) {
@@ -178,7 +178,7 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
     static {
       sKeys.put("layout/activity_main_0", com.example.diginotes.R.layout.activity_main);
-      sKeys.put("layout/dailog_forgot_password_0", com.example.diginotes.R.layout.dailog_forgot_password);
+      sKeys.put("layout/dialog_forgot_password_0", com.example.diginotes.R.layout.dialog_forgot_password);
       sKeys.put("layout/fragment_camera_0", com.example.diginotes.R.layout.fragment_camera);
       sKeys.put("layout/fragment_first_home_page_0", com.example.diginotes.R.layout.fragment_first_home_page);
       sKeys.put("layout/fragment_folder_options_0", com.example.diginotes.R.layout.fragment_folder_options);

@@ -61,7 +61,7 @@ open class CameraFragment : Fragment() {
                 if (uri != null) {
                     context?.contentResolver?.delete(uri, null, null)
                 }
-//                scannedImageView.setImageBitmap(bitmap)
+                /* scannedImageView.setImageBitmap(bitmap) */
             } catch (e: IOException) {
                 e.printStackTrace()
             }

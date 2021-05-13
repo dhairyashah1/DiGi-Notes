@@ -173,6 +173,14 @@ class main_home_page : Fragment() {
     var T35 = "text35";
     var s36 = "shared36";
     var T36 = "text36";
+
+    companion object{
+        @JvmStatic var folder_name = ""
+//        @JvmStatic fun getFolderName(context: Context): main_home_page {
+//            return context?.applicationContext as main_home_page
+//        }
+    }
+
     private lateinit var auth: FirebaseAuth
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -288,9 +296,58 @@ class main_home_page : Fragment() {
                 }
             }
         })
+
         folder1.setOnClickListener {
+            folder_name = text1.text.toString()
             findNavController().navigate(R.id.action_main_home_page_to_folderOptionsFragment)
         }
+        folder1.setOnClickListener {
+            folder_name = text1.text.toString()
+            findNavController().navigate(R.id.action_main_home_page_to_folderOptionsFragment)
+        }
+        folder1.setOnClickListener {
+            folder_name = text1.text.toString()
+            findNavController().navigate(R.id.action_main_home_page_to_folderOptionsFragment)
+        }
+        folder1.setOnClickListener {
+            folder_name = text1.text.toString()
+            findNavController().navigate(R.id.action_main_home_page_to_folderOptionsFragment)
+        }
+        folder1.setOnClickListener {
+            folder_name = text1.text.toString()
+            findNavController().navigate(R.id.action_main_home_page_to_folderOptionsFragment)
+        }
+        folder1.setOnClickListener {
+            folder_name = text1.text.toString()
+            findNavController().navigate(R.id.action_main_home_page_to_folderOptionsFragment)
+        }
+        folder1.setOnClickListener {
+            folder_name = text1.text.toString()
+            findNavController().navigate(R.id.action_main_home_page_to_folderOptionsFragment)
+        }
+        folder1.setOnClickListener {
+            folder_name = text1.text.toString()
+            findNavController().navigate(R.id.action_main_home_page_to_folderOptionsFragment)
+        }
+        folder1.setOnClickListener {
+            folder_name = text1.text.toString()
+            findNavController().navigate(R.id.action_main_home_page_to_folderOptionsFragment)
+        }
+        folder1.setOnClickListener {
+            folder_name = text1.text.toString()
+            findNavController().navigate(R.id.action_main_home_page_to_folderOptionsFragment)
+        }
+        folder1.setOnClickListener {
+            folder_name = text1.text.toString()
+            findNavController().navigate(R.id.action_main_home_page_to_folderOptionsFragment)
+        }
+        folder1.setOnClickListener {
+            folder_name = text1.text.toString()
+            findNavController().navigate(R.id.action_main_home_page_to_folderOptionsFragment)
+        }
+
+
+
         return binding.root
     }
 
@@ -298,7 +355,6 @@ class main_home_page : Fragment() {
         super.onStart()
         visibility(storage)
     }
-
     private fun visibility(storage: File) {
         var count = storage.listFiles().size
         val list = listOf(
@@ -412,7 +468,7 @@ class main_home_page : Fragment() {
                 folder1.visibility = VISIBLE
                 text1.text = "${nameOfFolder.text}"
                 text1.visibility = VISIBLE
-                var sharedPreferences = context?.getSharedPreferences(s1, MODE_PRIVATE)
+                val sharedPreferences = context?.getSharedPreferences(s1, MODE_PRIVATE)
                 val editor = sharedPreferences?.edit()
                 editor?.putString(T1, text1.text.toString())
                 editor?.apply()

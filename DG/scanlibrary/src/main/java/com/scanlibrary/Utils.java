@@ -12,9 +12,9 @@ import java.io.IOException;
  * Created by jhansi on 05/04/15.
  */
 public class Utils {
-
+//    MainApplication application = MainApplication.Companion.get(mContext);
+//    Mai mainHomePage = main_home_page.Companion.get()
     private Utils() {
-
     }
 
     public static Uri getUri(Context context, Bitmap bitmap) {

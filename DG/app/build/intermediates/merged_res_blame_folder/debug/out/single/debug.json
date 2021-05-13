@@ -32,10 +32,6 @@
         "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\layout\\popup.xml"
     },
     {
-        "merged": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\res\\merged\\debug\\layout_dailog_forgot_password.xml.flat",
-        "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\layout\\dailog_forgot_password.xml"
-    },
-    {
         "merged": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mic_icon.xml.flat",
         "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\drawable\\mic_icon.xml"
     },
@@ -110,6 +106,10 @@
     {
         "merged": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_forgot_password.xml.flat",
+        "source": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\src\\main\\res\\layout\\dialog_forgot_password.xml"
     },
     {
         "merged": "C:\\Users\\91976\\AndroidStudioProjects\\DiGi-Notes\\DG\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_foreground_choose_folder.xml.flat",

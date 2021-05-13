@@ -2495,7 +2495,6 @@ layout activity_main
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
-layout dailog_forgot_password
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -2511,6 +2510,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dialog_forgot_password
 layout fragment_camera
 layout fragment_first_home_page
 layout fragment_folder_options

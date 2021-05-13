@@ -13,18 +13,18 @@ import com.example.diginotes.R;
 import java.lang.Deprecated;
 import java.lang.Object;
 
-public abstract class DailogForgotPasswordBinding extends ViewDataBinding {
+public abstract class DialogForgotPasswordBinding extends ViewDataBinding {
   @NonNull
   public final EditText forgotPasswordText;
 
-  protected DailogForgotPasswordBinding(Object _bindingComponent, View _root, int _localFieldCount,
+  protected DialogForgotPasswordBinding(Object _bindingComponent, View _root, int _localFieldCount,
       EditText forgotPasswordText) {
     super(_bindingComponent, _root, _localFieldCount);
     this.forgotPasswordText = forgotPasswordText;
   }
 
   @NonNull
-  public static DailogForgotPasswordBinding inflate(@NonNull LayoutInflater inflater,
+  public static DialogForgotPasswordBinding inflate(@NonNull LayoutInflater inflater,
       @Nullable ViewGroup root, boolean attachToRoot) {
     return inflate(inflater, root, attachToRoot, DataBindingUtil.getDefaultComponent());
   }
@@ -34,17 +34,17 @@ public abstract class DailogForgotPasswordBinding extends ViewDataBinding {
    * type DataBindingComponent to avoid causing too many compilation errors if
    * compilation fails for another reason.
    * https://issuetracker.google.com/issues/116541301
-   * @Deprecated Use DataBindingUtil.inflate(inflater, R.layout.dailog_forgot_password, root, attachToRoot, component)
+   * @Deprecated Use DataBindingUtil.inflate(inflater, R.layout.dialog_forgot_password, root, attachToRoot, component)
    */
   @NonNull
   @Deprecated
-  public static DailogForgotPasswordBinding inflate(@NonNull LayoutInflater inflater,
+  public static DialogForgotPasswordBinding inflate(@NonNull LayoutInflater inflater,
       @Nullable ViewGroup root, boolean attachToRoot, @Nullable Object component) {
-    return ViewDataBinding.<DailogForgotPasswordBinding>inflateInternal(inflater, R.layout.dailog_forgot_password, root, attachToRoot, component);
+    return ViewDataBinding.<DialogForgotPasswordBinding>inflateInternal(inflater, R.layout.dialog_forgot_password, root, attachToRoot, component);
   }
 
   @NonNull
-  public static DailogForgotPasswordBinding inflate(@NonNull LayoutInflater inflater) {
+  public static DialogForgotPasswordBinding inflate(@NonNull LayoutInflater inflater) {
     return inflate(inflater, DataBindingUtil.getDefaultComponent());
   }
 
@@ -53,16 +53,16 @@ public abstract class DailogForgotPasswordBinding extends ViewDataBinding {
    * type DataBindingComponent to avoid causing too many compilation errors if
    * compilation fails for another reason.
    * https://issuetracker.google.com/issues/116541301
-   * @Deprecated Use DataBindingUtil.inflate(inflater, R.layout.dailog_forgot_password, null, false, component)
+   * @Deprecated Use DataBindingUtil.inflate(inflater, R.layout.dialog_forgot_password, null, false, component)
    */
   @NonNull
   @Deprecated
-  public static DailogForgotPasswordBinding inflate(@NonNull LayoutInflater inflater,
+  public static DialogForgotPasswordBinding inflate(@NonNull LayoutInflater inflater,
       @Nullable Object component) {
-    return ViewDataBinding.<DailogForgotPasswordBinding>inflateInternal(inflater, R.layout.dailog_forgot_password, null, false, component);
+    return ViewDataBinding.<DialogForgotPasswordBinding>inflateInternal(inflater, R.layout.dialog_forgot_password, null, false, component);
   }
 
-  public static DailogForgotPasswordBinding bind(@NonNull View view) {
+  public static DialogForgotPasswordBinding bind(@NonNull View view) {
     return bind(view, DataBindingUtil.getDefaultComponent());
   }
 
@@ -74,7 +74,7 @@ public abstract class DailogForgotPasswordBinding extends ViewDataBinding {
    * @Deprecated Use DataBindingUtil.bind(view, component)
    */
   @Deprecated
-  public static DailogForgotPasswordBinding bind(@NonNull View view, @Nullable Object component) {
-    return (DailogForgotPasswordBinding)bind(component, view, R.layout.dailog_forgot_password);
+  public static DialogForgotPasswordBinding bind(@NonNull View view, @Nullable Object component) {
+    return (DialogForgotPasswordBinding)bind(component, view, R.layout.dialog_forgot_password);
   }
 }
