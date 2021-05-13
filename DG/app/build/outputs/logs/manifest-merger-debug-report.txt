@@ -205,7 +205,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\91
 	android:largeHeap
 		ADDED from [:scanlibrary] C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\scanlibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-33
 	android:icon
-		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:14:9-55
 	android:allowBackup
 		ADDED from C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:13:9-35
 	android:theme

@@ -20,7 +20,8 @@ import java.io.IOException
 import java.util.*
 
 class SpeechToTextFragment : Fragment() {
-    private val filepath = "Storage-1/Folder1"
+    val folder_name = main_home_page.folder_name
+    private val filepath = "Storage-1/${folder_name}"
     private var myExternalFile: File? = null
     private val isExternalStorageReadOnly: Boolean
         get() {
@@ -40,6 +41,7 @@ class SpeechToTextFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         // Inflate the layout for this fragment
         val binding = DataBindingUtil.inflate<FragmentSpeechToTextBinding>(
             inflater,

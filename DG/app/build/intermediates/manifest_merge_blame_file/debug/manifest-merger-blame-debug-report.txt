@@ -54,8 +54,8 @@
 29        android:debuggable="true"
 30        android:hardwareAccelerated="true"
 30-->[:scanlibrary] C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\scanlibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-43
-31        android:icon="@mipmap/ic_launcher"
-31-->C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:14:9-43
+31        android:icon="@drawable/ic_launcher_playstore"
+31-->C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:14:9-55
 32        android:label="@string/app_name"
 32-->C:\Users\91976\AndroidStudioProjects\DiGi-Notes\DG\app\src\main\AndroidManifest.xml:15:9-41
 33        android:largeHeap="true"

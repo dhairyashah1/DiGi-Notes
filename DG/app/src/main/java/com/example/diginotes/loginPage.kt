@@ -32,7 +32,7 @@ class loginPage : Fragment() {
         binding.forgotPassword.setOnClickListener{
             val builder = AlertDialog.Builder(requireActivity())
             builder.setTitle("Forgot Password")
-            val view = layoutInflater.inflate(R.layout.dailog_forgot_password, null)
+            val view = layoutInflater.inflate(R.layout.dialog_forgot_password, null)
             val username = view.findViewById<EditText>(R.id.forgot_password_text)
             builder.setView(view)
             builder.setPositiveButton("Reset", DialogInterface.OnClickListener { _, _ ->
