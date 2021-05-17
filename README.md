@@ -30,13 +30,19 @@ Proper structuring of such data in either pdf or text format within subject spec
 * Database - Firestore, Firebase, Room DB (offline).
 
 ## Flow of the App
-:o: User Authentication - Includes Login and SignUp pages.
+* User Authentication - Includes Login and SignUp pages.
 
-:o: Home Screen - Contains Folders and Add Folder Buttons. FOLDER STRUCTURE. Can have nested Folders.
+* Home Screen - Contains Folders and Add Folder Buttons. FOLDER STRUCTURE :- Can have nested Folders.
 
-:o: Inside at least one folder , list of documents stored previously will be present along with 2 options RECORD / SCAN  for a NEW DOCUMENT
-   :large_blue_diamond: SCAN - Will open the scanner page. 
-   :large_blue_diamond: RECORD - Will record audio and keeps writing  it to a text document
+* Inside at least one folder, list of documents stored previously will be present along with 2 options RECORD / SCAN  for a NEW DOCUMENT:
+* SCAN - Will open the scanner page.
+* RECORD - Will record audio and keeps writing it to a text document.
+
+## Future Features
+1. After learning ML, a feature of summary maker to be added.
+2. Use of ML in Scanner to reduce time for scanning (relevant page detection and crop it) and self adjust documents to be readable enough.
+
+
 
 
 
