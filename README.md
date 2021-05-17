@@ -1,2 +1,2 @@
-# DiGi-Notes
+# DiGi-Note
 hi
