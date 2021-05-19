@@ -38,9 +38,13 @@ Proper structuring of such data in either pdf or text format within subject spec
 * SCAN - Will open the scanner page.
 * RECORD - Will record audio and keeps writing it to a text document.
 
+<img src="https://user-images.githubusercontent.com/77456213/118811426-aca4b980-b8b5-11eb-9743-5d232a3fa256.png" width="200" > <img src="https://user-images.githubusercontent.com/77456213/118812479-d4e0e800-b8b6-11eb-846e-fffd752edf00.png" width="200" > <img src="https://user-images.githubusercontent.com/77456213/118812872-3f922380-b8b7-11eb-8138-4b1c45335e7a.png" width="200" >
+
 ## Future Features
 1. After learning ML, a feature of summary maker to be added.
 2. Use of ML in Scanner to reduce time for scanning (relevant page detection and crop it) and self adjust documents to be readable enough.
+
+
 
 
 
