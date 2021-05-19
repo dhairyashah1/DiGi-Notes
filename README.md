@@ -29,7 +29,7 @@ Proper structuring of such data in either pdf or text format within subject spec
 * Frontend, Backend - Kotlin, Android.
 * Database - Firestore, Firebase, Room DB (offline).
 
-## Flow of the App
+## App Flow
 * User Authentication - Includes Login and SignUp pages.
 
 * Home Screen - Contains Folders and Add Folder Buttons. FOLDER STRUCTURE :- Can have nested Folders.
