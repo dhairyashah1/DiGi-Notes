@@ -49,7 +49,7 @@ Proper structuring of such data in either pdf, image or text format within subje
 2. [Onkar Punwatkar](https://github.com/onkar001)
 3. [Atharva Patil](https://github.com/atharvapatil123)
 4. [Imad Kasim](https://github.com/ImadKasim2002)
-5. [Rishab Jain](https://github.com/rishabhjain3030)
+5. [Rishabhkumar Jain](https://github.com/rishabhjain3030)
 
 ## Mentors
 1. [Palak Mantry](https://github.com/pal-16)
