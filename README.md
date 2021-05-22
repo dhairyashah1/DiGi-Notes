@@ -38,7 +38,7 @@ Proper structuring of such data in either pdf, image or text format within subje
 * 🎥 SCAN - Will open the scanner page.
 * ⏺ RECORD - Will record audio and keeps writing it to a text document.
 
-##📱 Screenshots
+## 📱 Screenshots
 <img src="https://user-images.githubusercontent.com/77456213/118811426-aca4b980-b8b5-11eb-9743-5d232a3fa256.png" width="200" > <img src="https://user-images.githubusercontent.com/77456213/118812479-d4e0e800-b8b6-11eb-846e-fffd752edf00.png" width="200" > <img src="https://user-images.githubusercontent.com/77456213/118812872-3f922380-b8b7-11eb-8138-4b1c45335e7a.png" width="200" >
 
 <img src="https://user-images.githubusercontent.com/64425805/119224636-fc38ee80-bb1c-11eb-8198-ed3497358dbe.png" width="200" ><img src="https://user-images.githubusercontent.com/64425805/119224644-03f89300-bb1d-11eb-9764-b15a165e1748.png" width="200" ><img src="https://user-images.githubusercontent.com/64425805/119224645-06f38380-bb1d-11eb-8b71-7e88b5248fab.png" width="200" >
