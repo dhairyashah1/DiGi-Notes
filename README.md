@@ -44,7 +44,7 @@ Proper structuring of such data in either pdf, image or text format within subje
 <img src="https://user-images.githubusercontent.com/64425805/119224636-fc38ee80-bb1c-11eb-8198-ed3497358dbe.png" width="300" ><img src="https://user-images.githubusercontent.com/64425805/119224644-03f89300-bb1d-11eb-9764-b15a165e1748.png" width="300" ><img src="https://user-images.githubusercontent.com/64425805/119224645-06f38380-bb1d-11eb-8b71-7e88b5248fab.png" width="300" >
 
 
-* More scrrenshots and demo videos can be viewed [here](https://drive.google.com/drive/folders/1kxA6Tcsh1CUZGrCtx4iG3zueMCbdr6pZ?usp=sharing)
+* More screenshots and demo videos can be viewed [here](https://drive.google.com/drive/folders/1kxA6Tcsh1CUZGrCtx4iG3zueMCbdr6pZ?usp=sharing)
 
 ## 🌐 Future Features
 1. There seems to be a storage bug with images taken from the app's camera, we intend to fix it soon.
