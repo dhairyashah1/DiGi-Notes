@@ -10,18 +10,18 @@ The main aim is to create a Kotlin app which ensures storage of all notes at one
 ## Description
 It has been quite monotonous to take notes manually from meet for any other audio input resource. To meet this need, the first primary feature implemented is **audio to text converter**.
 
-Also after achieving this, we have added a functionality of document scanner(like cam scanner) to serve the need of scanning notes manually(output storage is in image format as of now).
+Also after achieving this, we have added a functionality of document scanner(like cam scanner) in image format to serve the need of scanning notes manually(output storage is in image format as of now).
 
 Proper structuring of such data in either pdf, image or text format within subject specific folders is available as per requirement of the user.
 
 ## Features
 1. Audio to text inbuilt kotlin.
-2. Scanning documents, cropping, editing, etc.
+2. Scanning documents, cropping, limited editing, etc.
 3. Storage of text files, documents, etc in a folder.
 4. User Authentication.
 5. Data to be stored in local storage of the user.
 6. Automatic crop without ML.
-7. Proper storage with respective category or subject.
+7. Storage with respective category or subject.
 8. Dark Theme. 
 
 ## Technology Stack
@@ -41,8 +41,10 @@ Proper structuring of such data in either pdf, image or text format within subje
 <img src="https://user-images.githubusercontent.com/77456213/118811426-aca4b980-b8b5-11eb-9743-5d232a3fa256.png" width="200" > <img src="https://user-images.githubusercontent.com/77456213/118812479-d4e0e800-b8b6-11eb-846e-fffd752edf00.png" width="200" > <img src="https://user-images.githubusercontent.com/77456213/118812872-3f922380-b8b7-11eb-8138-4b1c45335e7a.png" width="200" >
 
 ## Future Features
-1. After learning ML, a feature of summary maker to be added.
-2. Use of ML in Scanner to reduce time for scanning (relevant page detection and crop it) and self adjust documents to be readable enough.
+1. There seems to be a storage bug with images taken from the app's camera, we intend to fix it soon.
+2. Converting the image output format to a pdf format, efficient for storage.
+3. After learning ML, a feature of summary maker to be added.
+4. Use of ML in Scanner to reduce time for scanning (relevant page detection and crop it) and self adjust documents to be readable enough.
 
 ## Team Members
 1. [Dhairya Shah](https://github.com/dhairyashah1)
